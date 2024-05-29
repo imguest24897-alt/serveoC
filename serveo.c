@@ -16,6 +16,7 @@ void print_banner() {
     printf(".   %s // serveo.net easy commander v1                                         \n", __FILE__);
     printf("-------------------------------------------------                              \n");
     printf(". milio48 | pescyte | IDBTE4M | javcode | zerobyte                             \n");
+    printf(". remade on c by guest24897                                                    \n");
     printf("__________________________________________________                             \n");
     printf(".                                                                              \n");
     printf(".     *ssh installed required*                                                 \n");
