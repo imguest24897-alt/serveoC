@@ -1,5 +1,8 @@
-# serveo
-Serveo port forwarder, ngrok alternative. powered by serveo.net
+# serveoC
+Serveo port forwarder, ngrok alternative. powered by serveo.net.
+
+> [!WARNING]
+> This project is not owned by me. This project is a fork of milio48/serveo, and this project was rewritten on C.
 
 ```
 parameter : [http/tcp] [local port] [option]
@@ -26,11 +29,9 @@ request custom port
 `serveo http 80 4869` 
   
 ### Linux
-`wget https://raw.githubusercontent.com/milio48/serveo/master/serveo.sh`
+`wget https://raw.githubusercontent.com/imguest24897-alt/serveoC/master/serveo.sh`
 
-### Windows
-u can download exe, but arg not supported cause compiled by winrar
+### Install (Linux only)
+`curl https://raw.githubusercontent.com/imguest24897-alt/serveoC/master/install.sh | bash`
 
 if u run from source, u can run with arg. but u must run in same folder with library.
-> sorry in windows version, haven't supported to reverse shell with nc. maybe have problem in ssh library.
-> please contrib
