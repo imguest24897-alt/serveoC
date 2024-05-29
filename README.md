@@ -27,9 +27,6 @@ request change http subdomain
   
 request custom port
 `serveo http 80 4869` 
-  
-### Linux
-`wget https://raw.githubusercontent.com/imguest24897-alt/serveoC/master/serveo.sh`
 
 ### Install (Linux only)
 `curl https://raw.githubusercontent.com/imguest24897-alt/serveoC/master/install.sh | bash`
